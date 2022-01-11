@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Weather</title>
+  <style type="text/css">
+    body {
+     background: #7ec6cf; /* цвет фона страницы */
+    }
+    p {
+     color: rgb(0, 17, 255); /* цвет букв */
+     font-family: Helvetica, sans-serif; /* гарнитура шрифта параграфов */
+     font-size: 150%; /* размер шрифта */
+     text-align: center; /* текст по центру */
+     border: 5px rgb(55, 12, 173) double; /* стили рамки */
+     
+   </style>
+   
+   <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+   <p>Weather Forecast</p>
+   <p>Mysterious Phenomena</p>
+  </body>
+ </html>
+ </head>
+ <body>
+  <table border="1">
+<table align="center">
+
+   <caption>weather</caption>
+   <tr>
+    <th>date</th>
+    <th>day</th>
+    <th>night</th>
+    <th>weather</th>
+   </tr>
+   <tr><td>monday</td><td>+1</td><td>-6</td><td>snow</td></tr>
+   <tr><td>tuesday</td><td>+1</td><td>0</td><td>snow</td></tr>
+   <tr><td>wednesday</td><td>-1</td><td>-14</td><td>snow</td></tr>
+   <tr><td>thursday</td><td>-10</td><td>-13</td><td>snow</td></tr>
+   <tr><td>saturday</td><td>-13</td><td>-15</td><td>cloudy</td></tr>
+   <tr><td>friday</td><td>-12</td><td>-9</td><td>cloudy</td></tr>
+   <tr><td>sunday</td><td>-8</td><td>-12</td><td>sun</td></tr>
+   
+  </table>
+ 
+<p align="center">Info from <a href="https://www.gismeteo.kz/weather-nur-sultan-5164/10-days/">GisMeteo</a></p>
+
+
+ <form action="handler.php">
+  <p><b>Please rate us.</b></p>
+  <p><input type="radio" name="answer" value="a1">Good<Br>
+  <input type="radio" name="answer" value="a2">Not bad<Br>
+  <input type="radio" name="answer" value="a3">Bad</p>
+  <p><input type="submit"></p>
+ </form>
+ <div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+
+<ul align="right" type="none">
+<p><em> Attention</em></p>
+    <li align="right">The data may not match</li>
+    <li align="right">we are not responsible</li>
+    <li align="right">I don't know what to write here</li>
+  </ul>
+  <style>
+    .colored-border-empty-retangle0 {
+        margin: 50px auto;
+        width: 0;
+        height: 0;
+        border-top: 40px solid rgb(185, 80, 255);
+        border-right: 40px solid rgb(54, 1, 90);
+        border-bottom: 40px solid rgb(185, 80, 255);
+        border-left: 40px solid rgb(54, 1, 90);
+    }
+    .colored-border-empty-retangle1  {
+        margin: 50px auto;
+        width: 0;
+        height: 0;
+        border-top: 40px solid rgb(80, 255, 217);
+        border-right: 40px solid rgb(21, 105, 98);
+        border-bottom: 40px solid rgb(80, 255, 217);
+        border-left: 40px solid rgb(21, 105, 98);
+    }
+    .colored-border-empty-retangle2 {
+        margin: 50px auto;
+        width: 0;
+        height: 0;
+        border-top: 40px solid rgb(80, 112, 255);
+        border-right: 40px solid rgb(66, 28, 143);
+        border-bottom: 40px solid rgb(80, 112, 255);
+        border-left: 40px solid rgb(66, 28, 143);
+    }
+    .colored-border-empty-retangle3 {
+        margin: 50px auto;
+        width: 0;
+        height: 0;
+        border-top: 40px solid rgb(226, 80, 255);
+        border-right: 40px solid rgb(61, 5, 75);
+        border-bottom: 40px solid rgb(226, 80, 255);
+        border-left: 40px solid rgb(61, 5, 75);
+    }
+    </style>
+    <div class="colored-border-empty-retangle0"></div>
+    <div class="colored-border-empty-retangle1"></div>
+    <div class="colored-border-empty-retangle2"></div>
+    <div class="colored-border-empty-retangle3"></div>
+    
+</body>
+</html>
